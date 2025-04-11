@@ -2,14 +2,14 @@ site_name: My Homelab
 site_url: https://homelab.danielssilva.dev
 site_author: Daniel Silva
 site_description: Documentation for my personal homelab setup
-
+repo_url: https://github.com/DanielSSilva/homelab
 theme:
   name: material
   features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.expand
-    - navigation.indexes
+    #- navigation.tabs
+    #- navigation.sections
+    #- navigation.expand
+    #- navigation.indexes
     #- toc.integrate
     #- navigation.top
     - search.suggest
