@@ -1,0 +1,83 @@
+site_name: My Homelab
+site_url: https://homelab.danielssilva.dev
+site_author: Daniel Silva
+site_description: Documentation for my personal homelab setup
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    #- toc.integrate
+    #- navigation.top
+    - search.suggest
+    - search.highlight       # Enable tags feature in UI
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+# markdown_extensions:
+#   - admonition
+#   - pymdownx.details
+#   - pymdownx.superfences
+#   - attr_list
+#   - md_in_html
+#   - pymdownx.emoji:
+#       emoji_index: !!python/name:materialx.emoji.twemoji
+#       emoji_generator: !!python/name:materialx.emoji.to_svg
+#   - pymdownx.tabbed:
+#       alternate_style: true
+#   - tables
+
+plugins:
+  - search
+  - meta
+  - tags:
+      tags_file: tags.md   # This file will be auto-generated with all tags
+
+# nav:
+#   - Home: index.md
+#   - Motivation: motivation.md
+#   - Hardware:
+#     - Overview: hardware/index.md
+#     - Mac Mini M4: servers-new/apple-mac-mini-m4.md
+#     - Custom Server: servers-new/custom-server.md
+#   - Infrastructure:
+#     - Overview: infrastructure/index.md
+#     - Unraid: infrastructure/unraid.md
+#     - Networking: infrastructure/networking.md
+#     - Storage: infrastructure/storage.md
+#   - Platforms:
+#     - Overview: platforms/index.md
+#     - Virtualization: platforms/virtualization.md
+#     - Containerization:
+#       - Overview: platforms/containerization/index.md
+#       - Docker: platforms/containerization/docker.md
+#       - Colima: platforms/containerization/colima.md
+#   - Services:
+#     - Overview: services/index.md
+#     - Home Assistant:
+#       - Overview: services/home-assistant/index.md
+#       - Devices:
+#         - Sensors: services/home-assistant/devices/sensors.md
+#         - Lighting: services/home-assistant/devices/lighting.md
+#     - Tailscale: services/tailscale.md
+#   - Tools:
+#     - Overview: tools/index.md
+#     - Glances: tools/glances.md
+#   - Maintenance:
+#     - Overview: maintenance/index.md
+#     - Backup Strategy: maintenance/backup-strategy.md
+#     - Budget: maintenance/budget.md
