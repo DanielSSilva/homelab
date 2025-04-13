@@ -5,7 +5,7 @@ title: Ollama
 # Ollama
 
 Ollama is an AI service running on the Mac Mini M4. It is used for local AI model inference and experimentation.
-
+as
 ## Running on
 - **Host System**: [[../servers/Mac Mini M4|Mac Mini M4]]
 

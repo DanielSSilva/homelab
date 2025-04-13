@@ -13,7 +13,8 @@ I'm using the [mkdocs-material](https://squidfunk.github.io/mkdocs-material/) th
 To preview the documentation locally, the following Docker command is used:
 
 ```bash
-docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material
+docker run --rm -it -p 8000:8000 -v ${PWD}:/docs --entrypoint sh squidfunk/mkdocs-material \
+  -c "pip install mkdocs-publisher && mkdocs serve -a 0.0.0.0:8000"
 ```
 
 This command runs the MkDocs Material Docker image and serves the documentation on `http://localhost:8000`.
