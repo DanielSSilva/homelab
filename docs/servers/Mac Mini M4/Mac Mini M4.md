@@ -23,4 +23,4 @@ I've started to explore AI more and more. I started by plugging my old GTX 1060 
     - Jellyfin
 - Host critical services
     - Pihole
-    - [Home Assistant](../../services/home-assistant/Home%20Assistant.md)
+    - [Home Assistant](../../services/Home%20Assistant.md)

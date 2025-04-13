@@ -25,7 +25,7 @@ brew install docker-compose
 ## UMT
 > UTM employs Apple's Hypervisor virtualization framework to run ARM64 operating systems on Apple Silicon at near native speeds.
 
-Since I'm running [Home Assistant](../../services/home-assistant/Home%20Assistant.md)  on this mac, I needed a way to run it in a VM. I've decided to try UTM, as it seems to be optimized especially for the M series macs.
+Since I'm running [Home Assistant](../../services/Home%20Assistant.md)  on this mac, I needed a way to run it in a VM. I've decided to try UTM, as it seems to be optimized especially for the M series macs.
 
 ### Installation
 I installed it through the [official website](https://mac.getutm.app/)

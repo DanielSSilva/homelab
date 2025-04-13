@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "servers/Mac Mini M4/Mac Mini M4.md",
+                "file": "unraid.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "servers/Mac Mini M4/Mac Mini M4.md",
+                "file": "unraid.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "servers/Mac Mini M4/Mac Mini M4.md",
+                "file": "unraid.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "servers/Mac Mini M4/Mac Mini M4.md"
+                "file": "unraid.md"
               }
             }
           }
@@ -161,37 +161,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d4611aed063db2dc",
+  "active": "f8838a20d14501e8",
   "lastOpenFiles": [
+    "tags.md",
+    "unraid.md",
+    "network-gear.md",
+    "index.md",
+    "services/Tailscale.md",
+    "tools/index.md",
+    "services/Home Assistant.md",
+    "services/OpenWebUI.md",
+    "services/N8N.md",
+    "services/index.md",
+    "services/Immich.md",
+    "services/Hoarder.md",
+    "services/Frigate.md",
+    "servers/Mac Mini M4/Mac Mini M4.md",
+    "services/home-assistant/devices/lighting.md",
     "servers/Mac Mini M4/Software.md",
     "services/ActualBudget.md",
     "servers/Custom Server - Olympus.md",
     "services/Ollama.md",
-    "servers/Mac Mini M4/Mac Mini M4.md",
-    "services/home-assistant/Home Assistant.md",
     "servers/Mac Mini M4",
     "services/Traefik.md",
-    "services/Frigate.md",
-    "unraid.md",
     "Unraid.md",
-    "tags.md",
     "CNAME",
     "servers/mac-mini-m4.md",
     "servers/custom-server.md",
-    "services/Immich.md",
-    "services/Hoarder.md",
     "Mac Mini M4.md",
-    "tools/index.md",
     "tools/mkdocs.md",
-    "services/N8N.md",
     "services/VSCodeServer.md",
-    "services/home-assistant/devices/sensors.md",
-    "services/home-assistant/devices/lighting.md",
     "services/home-assistant/devices",
     "services/home-assistant",
-    "services/index.md",
-    "services/OpenWebUI.md",
-    "services/Tailscale.md",
     "tools",
     "services",
     "servers",
