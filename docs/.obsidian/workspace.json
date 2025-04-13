@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "1b6d94f5a072e597",
+        "id": "c29f4debe70396c1",
         "type": "split",
         "children": [
           {
             "id": "07fe5b6c4840ee0b",
             "type": "tabs",
-            "dimension": 70.20497803806735,
+            "dimension": 66.66666666666666,
             "children": [
               {
                 "id": "7ba2fde18d1b9dec",
@@ -18,27 +18,40 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "servers/Mac Mini M4.md",
+                    "file": "services/home-assistant/index.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "0b1ba2724410eedb",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "services/Ollama.md",
                     "mode": "source",
                     "source": false
                   }
                 },
-                "group": "85d55b99d33834cc"
+                "group": "5bc65b81592b5aad"
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
-            "id": "35a43ad6cfab6b2d",
+            "id": "e2246bb7689ccd2b",
             "type": "tabs",
-            "dimension": 29.795021961932655,
+            "dimension": 33.33333333333333,
             "children": [
               {
-                "id": "d98a68bfd5c18dac",
+                "id": "2b70fddaaf6d67dd",
                 "type": "leaf",
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "servers/Mac Mini M4.md",
+                    "file": "services/Ollama.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -48,7 +61,7 @@
                     "unlinkedCollapsed": true
                   }
                 },
-                "group": "85d55b99d33834cc"
+                "group": "5bc65b81592b5aad"
               }
             ]
           }
@@ -119,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "servers/Mac Mini M4.md",
+                "file": "services/Ollama.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "servers/Mac Mini M4.md",
+                "file": "services/Ollama.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "servers/Mac Mini M4.md"
+                "file": "services/Ollama.md"
               }
             }
           }
@@ -180,10 +193,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7ba2fde18d1b9dec",
+  "active": "0b1ba2724410eedb",
   "lastOpenFiles": [
-    "services/home-assistant/index.md",
     "servers/Mac Mini M4.md",
+    "services/Ollama.md",
+    "services/home-assistant/index.md",
     "services/Traefik.md",
     "services/Frigate.md",
     "services/ActualBudget.md",
@@ -191,7 +205,6 @@
     "Unraid.md",
     "tags.md",
     "servers/Custom Server - Olympus.md",
-    "services/Ollama.md",
     "CNAME",
     "servers/mac-mini-m4.md",
     "servers/custom-server.md",
