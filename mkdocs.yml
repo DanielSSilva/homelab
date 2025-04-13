@@ -1,8 +1,11 @@
 site_name: My Homelab
-site_url: https://homelab.danielssilva.dev
+#site_url: https://homelab.danielssilva.dev
+site_url: https://danielssilva.github.io/homelab
 site_author: Daniel Silva
 site_description: Documentation for my personal homelab setup
 repo_url: https://github.com/DanielSSilva/homelab
+use_directory_urls: true
+dev_addr: 127.0.0.1:8000
 theme:
   name: material
   features:
@@ -31,14 +34,56 @@ theme:
 markdown_extensions:
   - admonition
   - attr_list
+  - def_list
+  - footnotes
   - md_in_html
+  - sane_lists
+  - tables
+  - toc:
+      permalink: true
+      permalink_title: Anchor link to this section for reference
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
+  - pymdownx.critic
+  - pymdownx.caret
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      auto_title: false
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      use_pygments: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.saneheaders
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  
 
 plugins:
   - search
   - meta
   - pub-obsidian
+  - pub-minifier
     
 
 # nav:
