@@ -1,10 +1,5 @@
 ---
 title: Docker
-tags:
-  - platform
-  - containerization
-  - docker
-status: active
 ---
 
 # Docker

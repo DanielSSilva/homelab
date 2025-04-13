@@ -44,8 +44,6 @@ theme:
 plugins:
   - search
   - meta
-  - tags:
-      tags_file: tags.md   # This file will be auto-generated with all tags
 
 # nav:
 #   - Home: index.md

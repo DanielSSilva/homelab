@@ -1,9 +1,5 @@
 ---
 title: Custom Server
-tags:
-  - custom-server
-location: Home Office
-status: active
 ---
 
 # Custom Server

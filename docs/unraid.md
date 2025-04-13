@@ -1,12 +1,5 @@
 ---
 title: Unraid
-tags:
-  - infrastructure
-  - storage
-  - virtualization
-  - OS
-hardware: Custom Server
-status: active
 ---
 
 # Unraid
