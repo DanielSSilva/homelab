@@ -1,32 +1,28 @@
----
-title: Traefik
-tags:
-  - service
-  - reverse-proxy
-  - custom-server
-status: active
----
+# Adding traefik labels to unraid containers
+- Add a new label with key `traefik.enable` and set value to `true`
+- Add another label with key `traefik.http.routers.<appname>.entryPoints` and value `https`
 
-# Traefik
+# Manual proxying
+Whether it's because the service is on another machine, or because it requires some different, setup, there are scenarios where you need to create a proxy manually, rather than having Traefik doing the discovery through docker tags.
 
-Traefik is a reverse proxy and load balancer running on the custom server. It is used to manage and route traffic to various services in the homelab.
+# Changes on fileConfig.yml
 
-## Docker Compose Configuration
-
-```yaml
-version: '3'
-services:
-  traefik:
-    image: traefik
-    ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - ./traefik-config:/etc/traefik
-    restart: unless-stopped
+```YAML
+http:
+## EXTERNAL ROUTING - Only use if you want to proxy something manually ##
+routers:
+	ollama:
+		entryPoints:
+			- https
+		rule: 'Host(`ollama.mydomain.com`)'
+		service: ollama
+	openwebui:
+		entryPoints:
+			- https
+		rule: 'Host(`chat.mydomain.com`)'
+		service: openwebui
 ```
 
-## Notes
-
-- Traefik is configured to handle SSL termination and route traffic based on domain names.
-- The `traefik-config` directory contains the configuration files for Traefik.
+# References
+- https://docs.ibracorp.io/traefik/master/unraid
+- [Proxying Your First App by Ibracorp](https://docs.ibracorp.io/traefik/master/unraid/proxying-your-first-app)
