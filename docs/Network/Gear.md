@@ -1,7 +1,3 @@
----
-title: Network gear
----
-
 I wanted a way to separate my devices into multiple vlans. Since network is usually a rather complicated topic, my main requisite was that I could have a friendly, simple interface to configure everything. Unifi kept popping up as the go-to solution, with products that range from entry-level to enterprise-grade. I decided to go with the entry-level products, as I don't need anything too fancy.
 
 ## Dream Router

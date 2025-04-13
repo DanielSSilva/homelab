@@ -8,4 +8,4 @@ Actual is a local-first personal finance tool. It is 100% free and open-source, 
 - Is setup on [[Traefik#Adding traefik labels to unraid containers| Traefik by adding traefik labels to unraid containers]]
 
 ## Running on
-- [Custom Server - Olympus](../servers/Custom%20Server%20-%20Olympus.md)
+- [Custom Server (Olympus)](../servers/Custom%20Server%20(Olympus).md)

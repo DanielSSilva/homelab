@@ -13,7 +13,7 @@ I've started to explore AI more and more. I started by plugging my old GTX 1060 
 ## Power Management
 - Has UPS connected to it, which is configured to shut down the Mac Mini when the battery reaches a certain percentage.
 - Set to boot up when power is restored after a power outage.
-- **Power Consumption**: [According to Apple](https://support.apple.com/en-us/103253) it idles at 4W, and at max it draws 65W. For comparison, my [Custom Server - Olympus](../Custom%20Server%20-%20Olympus.md) draws 60W on idle.
+- **Power Consumption**: [According to Apple](https://support.apple.com/en-us/103253) it idles at 4W, and at max it draws 65W. For comparison, my [Custom Server (Olympus)](../Custom%20Server%20(Olympus).md) draws 60W on idle.
 
 # Role in Homelab
 
