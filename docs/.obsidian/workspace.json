@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "b47ef92885c576ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "1b6d94f5a072e597",
+        "type": "split",
+        "children": [
+          {
+            "id": "07fe5b6c4840ee0b",
+            "type": "tabs",
+            "dimension": 70.20497803806735,
+            "children": [
+              {
+                "id": "7ba2fde18d1b9dec",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "servers/Mac Mini M4.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                },
+                "group": "85d55b99d33834cc"
+              }
+            ]
+          },
+          {
+            "id": "35a43ad6cfab6b2d",
+            "type": "tabs",
+            "dimension": 29.795021961932655,
+            "children": [
+              {
+                "id": "d98a68bfd5c18dac",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "servers/Mac Mini M4.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                },
+                "group": "85d55b99d33834cc"
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3e1b38892d13f4d7",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d4c32b3db2898f8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8838a20d14501e8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ae8bc6fdbe61fd7f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d8e6e5d9149e2db6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "18e3802d5b041438",
+    "type": "split",
+    "children": [
+      {
+        "id": "c689bc7fdc88ec5f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b590d35724c64f05",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "servers/Mac Mini M4.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "412b8767b336bad9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "servers/Mac Mini M4.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "39ab7775d99b49ff",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "eb27b9b3501aec4a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "servers/Mac Mini M4.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "7ba2fde18d1b9dec",
+  "lastOpenFiles": [
+    "services/home-assistant/index.md",
+    "servers/Mac Mini M4.md",
+    "services/Traefik.md",
+    "services/Frigate.md",
+    "services/ActualBudget.md",
+    "unraid.md",
+    "Unraid.md",
+    "tags.md",
+    "servers/Custom Server - Olympus.md",
+    "services/Ollama.md",
+    "CNAME",
+    "servers/mac-mini-m4.md",
+    "servers/custom-server.md",
+    "services/Immich.md",
+    "services/Hoarder.md",
+    "Mac Mini M4.md",
+    "services/home-assistant/Home Assistant.md",
+    "tools/index.md",
+    "tools/mkdocs.md",
+    "services/N8N.md",
+    "services/VSCodeServer.md",
+    "services/home-assistant/devices/sensors.md",
+    "services/home-assistant/devices/lighting.md",
+    "services/home-assistant/devices",
+    "services/home-assistant",
+    "services/index.md",
+    "services/OpenWebUI.md",
+    "services/Tailscale.md",
+    "tools",
+    "services",
+    "servers",
+    "platforms/containerization",
+    "hardware/servers/apple-mac-mini-m4",
+    "hardware/servers",
+    "hardware/networking"
+  ]
+}

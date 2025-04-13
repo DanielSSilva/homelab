@@ -29,7 +29,7 @@ I've started to explore AI more and more. I started by plugging my old GTX 1060 
 ## Power Management
 - Has UPS connected to it, which is configured to shut down the Mac Mini when the battery reaches a certain percentage.
 - Set to boot up when power is restored after a power outage.
-- **Power Consumption**: [According to Apple](https://support.apple.com/en-us/103253) it idles at 4W, and at max it draws 65W. For comparison, my [custom server](/hardware/servers/custom-server/) draws 60W on idle.
+- **Power Consumption**: [According to Apple](https://support.apple.com/en-us/103253) it idles at 4W, and at max it draws 65W. For comparison, my [[Custom Server - Olympus]] draws 60W on idle.
 
 ## Software
 
@@ -58,7 +58,8 @@ brew install docker-compose
 ### UMT
 > UTM employs Apple's Hypervisor virtualization framework to run ARM64 operating systems on Apple Silicon at near native speeds.
 
-Since I'm running [[Home Assistant]]  [Home Assistant](/services/home-assistant/) on this mac, I needed a way to run it in a VM. I've decided to try UTM, as it seems to be optimized especially for the M series macs.
+Since I'm running [Home Assistant](../services/home-assistant/index.md)  on this mac, I needed a way to run it in a VM. I've decided to try UTM, as it seems to be optimized especially for the M series macs.
 
 #### Installation
 I installed it through the [official website](https://mac.getutm.app/)
+

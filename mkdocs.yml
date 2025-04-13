@@ -4,26 +4,19 @@ site_author: Daniel Silva
 site_description: Documentation for my personal homelab setup
 repo_url: https://github.com/DanielSSilva/homelab
 use_directory_urls: true
+strict: true
 dev_addr: 127.0.0.1:8000
+
+validation:
+  omitted_files: warn
+  not_found: warn
+  absolute_links: warn
+  unrecognized_links: ignore
+  anchors: warn
+
+
 theme:
   name: material
-  features:
-    #- navigation.tabs
-    #- navigation.sections
-    #- navigation.expand
-    #- navigation.indexes
-    #- toc.integrate
-    #- navigation.top
-    - search.suggest
-    - search.highlight   
-    - search.share
-    - content.action.edit
-    - content.action.view
-    - content.code.copy
-    - content.code.annotate
-    - content.tabs.link
-    - toc.follow
-    
   palette:
     - scheme: default
       primary: indigo
@@ -37,6 +30,41 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+
+  features:
+    # #- navigation.tabs
+    # #- navigation.sections
+    # #- navigation.expand
+    # #- navigation.indexes
+    # #- toc.integrate
+    # #- navigation.top
+    # - search.suggest
+    # - search.highlight   
+    # - search.share
+    # - content.action.edit
+    # - content.action.view
+    # - content.code.copy
+    # - content.code.annotate
+    # - content.tabs.link
+    # - toc.follow
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.footer  # Prev/Next page
+    - navigation.tracking  # Anchor tracking
+    - navigation.top  # Back to top
+    - navigation.sections  # Useful for an overview
+    - navigation.indexes  # Needed for an overview
+    - navigation.instant
+    - navigation.instant.progress
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.action.edit
+    - content.action.view
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - toc.follow
 
 markdown_extensions:
   - admonition
@@ -92,38 +120,3 @@ plugins:
   - pub-obsidian
   - pub-minifier
     
-
-# nav:
-#   - Home: index.md
-#   - Motivation: motivation.md
-#   - Hardware:
-#     - Overview: hardware/index.md
-#     - Mac Mini M4: servers-new/apple-mac-mini-m4.md
-#     - Custom Server: servers-new/custom-server.md
-#   - Infrastructure:
-#     - Overview: infrastructure/index.md
-#     - Unraid: infrastructure/unraid.md
-#     - Networking: infrastructure/networking.md
-#     - Storage: infrastructure/storage.md
-#   - Platforms:
-#     - Overview: platforms/index.md
-#     - Virtualization: platforms/virtualization.md
-#     - Containerization:
-#       - Overview: platforms/containerization/index.md
-#       - Docker: platforms/containerization/docker.md
-#       - Colima: platforms/containerization/colima.md
-#   - Services:
-#     - Overview: services/index.md
-#     - Home Assistant:
-#       - Overview: services/home-assistant/index.md
-#       - Devices:
-#         - Sensors: services/home-assistant/devices/sensors.md
-#         - Lighting: services/home-assistant/devices/lighting.md
-#     - Tailscale: services/tailscale.md
-#   - Tools:
-#     - Overview: tools/index.md
-#     - Glances: tools/glances.md
-#   - Maintenance:
-#     - Overview: maintenance/index.md
-#     - Backup Strategy: maintenance/backup-strategy.md
-#     - Budget: maintenance/budget.md
