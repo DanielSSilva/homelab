@@ -4,7 +4,7 @@ site_author: Daniel Silva
 site_description: Documentation for my personal homelab setup
 repo_url: https://github.com/DanielSSilva/homelab
 use_directory_urls: true
-strict: true
+
 dev_addr: 127.0.0.1:8000
 
 validation:
