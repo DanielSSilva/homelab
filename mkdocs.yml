@@ -15,7 +15,15 @@ theme:
     #- toc.integrate
     #- navigation.top
     - search.suggest
-    - search.highlight       # Enable tags feature in UI
+    - search.highlight   
+    - search.share
+    - content.action.edit
+    - content.action.view
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - toc.follow
+    
   palette:
     - scheme: default
       primary: indigo

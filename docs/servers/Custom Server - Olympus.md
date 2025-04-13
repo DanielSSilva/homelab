@@ -1,8 +1,3 @@
----
-title: Custom Server
----
-
-# Custom Server
 
 ## Hardware Specifications
 
