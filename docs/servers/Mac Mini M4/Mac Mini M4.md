@@ -1,4 +1,5 @@
-In short: best bang for the buck for AI operations, with the added bonus of being able to serve other functions, when compared to a graphics card.
+# Reasoning
+I wanted to have a low-power server where I can host my critical services, like Pihole and Home Assistant. I also wanted to have a server that can run AI workloads, like LLMs, and do some media streaming. In short, it's the best bang for the buck for AI operations, with the added bonus of being able to serve other functions, when compared to a graphics card.
 I've started to explore AI more and more. I started by plugging my old GTX 1060 into my server, but it drew 120W when I queried LLMs, without a big performance. I then considered upgrading my desktop's GPU to something like a 4070 and move the 3060 to my server, but only that was more expensive, but it would also draw much more power. Upon reading, searching and watching videos, I found out that the M4 chip is the perfect compromise for my case for power usage vs LLM performance
 
 # Hardware Specifications
