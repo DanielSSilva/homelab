@@ -8,5 +8,12 @@ However, the biggest challenge is that there's in-app way to start the VM on boo
     - Run command that calls UTM's command line tool to start the VM
     - Wait 30 seconds to ensure that the VM has started
     - Run a command that calls UTM's command line tool attach the USB device to the VM
+    
+![](../../Pasted%20image%2020250415174156.png)
 
-If you want a more detailed explanation why I'm running Home Assistant on this Mac, you can check out the [Home Assistant](../../services/Home%20Assistant.md) page.
+!!! Tip 
+
+    you can run `/Applications/UTM.app/Contents/MacOS/utmctl usb list` to list the USB Devices 
+
+
+If you want a more detailed explanation why I'm running Home Assistant on this Mac, you can check out the [Home Assistant installation](../../services/home-assistant/Installation.md) page.

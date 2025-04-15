@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/mkdocs.md",
+                "file": "servers/Mac Mini M4/UMT.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/mkdocs.md",
+                "file": "servers/Mac Mini M4/UMT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/mkdocs.md",
+                "file": "servers/Mac Mini M4/UMT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/mkdocs.md"
+                "file": "servers/Mac Mini M4/UMT.md"
               }
             }
           }
@@ -163,13 +163,21 @@
   },
   "active": "d4611aed063db2dc",
   "lastOpenFiles": [
-    "Network/Gear.md",
-    "Network/Vlans.md",
+    "servers/Mac Mini M4/Software.md",
     "servers/Mac Mini M4/Mac Mini M4.md",
+    "servers/Custom Server (Olympus).md",
+    "Network/Vlans.md",
+    "Network/Gear.md",
+    "servers/Mac Mini M4/UMT.md",
+    "services/home-assistant/Installation.md",
+    "services/home-assistant/Home Assistant.md",
+    "Pasted image 20250415174156.png",
+    "servers/Mac Mini M4/Problems File Vault.md",
+    "tools/mkdocs.md",
+    "services/home-assistant",
     "Network",
     "services/Home Assistant.md",
     "services/ActualBudget.md",
-    "servers/Custom Server (Olympus).md",
     "unraid.md",
     "tags.md",
     "index.md",
@@ -182,18 +190,10 @@
     "services/Hoarder.md",
     "services/Frigate.md",
     "services/home-assistant/devices/lighting.md",
-    "servers/Mac Mini M4/Software.md",
     "services/Ollama.md",
     "servers/Mac Mini M4",
-    "services/Traefik.md",
-    "Unraid.md",
     "CNAME",
-    "servers/mac-mini-m4.md",
-    "servers/custom-server.md",
-    "Mac Mini M4.md",
-    "tools/mkdocs.md",
     "services/home-assistant/devices",
-    "services/home-assistant",
     "tools",
     "services",
     "servers",
