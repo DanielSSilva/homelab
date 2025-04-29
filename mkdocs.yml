@@ -1,3 +1,4 @@
+
 site_name: My Homelab
 site_url: https://homelab.danielssilva.dev
 site_author: Daniel Silva
@@ -37,4 +38,15 @@ plugins:
   - meta
   # - pub-obsidian
   # - pub-minifier
-    
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Servers:
+      - Mac Mini M4:
+          - Overview: servers/Mac Mini M4/Mac Mini M4.md
+          - Hardware Specifications: servers/Mac Mini M4/Hardware.md
+          - Software: servers/Mac Mini M4/Software.md
+          - Problems with File Vault: servers/Mac Mini M4/FileVault.md
+          - UTM: servers/Mac Mini M4/UMT.md
+
