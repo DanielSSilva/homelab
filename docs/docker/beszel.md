@@ -1,11 +1,10 @@
 # Beszel 
 
+## What is it?
 
 _Simple, lightweight server monitoring with Docker stats, historical data, and alerts._
 
 &emsp;&emsp;\- [Source](https://www.beszel.dev/)
-
-## Contents
 
 This contains two components:
 
@@ -54,6 +53,12 @@ services:
       KEY: ${BESZEL_AGENT_KEY}
 ```
 
+## .env
+```env
+BESZEL_AGENT_KEY=ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICv...
+```
+
 ## References
 - [Official Website](https://www.beszel.dev/)
+- [Documentation](https://www.beszel.dev/guide/getting-started)
 - [GitHub Repository](https://github.com/henrygd/beszel)

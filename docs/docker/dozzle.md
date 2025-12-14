@@ -1,5 +1,7 @@
 # Dozzle
 
+## What is it?
+
 _Dozzle is a small lightweight application with a web based interface to monitor Docker logs. It doesn’t store any log files. It is for live monitoring of your container logs only._
 
 &emsp;&emsp;\- [Source](https://github.com/amir20/dozzle?tab=readme-ov-file#dozzle---dozzledev)
@@ -29,5 +31,5 @@ services:
 ## References
 
 - [Official Website](https://dozzle.dev/)
-
+- [Documentation](https://dozzle.dev/guide/getting-started)
 - [GitHub Repository](https://github.com/amir20/dozzle)

@@ -1,5 +1,13 @@
+# Actual Budget
 
-```yaml title="Docker Compose"
+## What is it?
+
+_Actual Budget is a super fast and privacy-focused app for managing your finances. At its heart is the well proven and much loved Envelope Budgeting methodology._ 
+
+&emsp;&emsp;\- [Source](https://actualbudget.org/)
+
+## Docker Compose
+```yaml
 networks:
   proxy:
 	external: true
@@ -24,3 +32,8 @@ services:
 	  - glance.hide=false
 	  - net.unraid.docker.icon=https://github.com/actualbudget/actual/raw/master/packages/desktop-electron/icons/icon.png
 ```
+
+## References
+- [Official Website](https://actualbudget.org/)
+- [Documentation](https://actualbudget.org/docs/)
+- [GitHub Repository](https://github.com/actualbudget/actual)
