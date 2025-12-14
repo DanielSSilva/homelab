@@ -11,26 +11,60 @@ dev_addr: 127.0.0.1:8000
 theme:
   name: material
   palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      accent: deep purple
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/brightness-2
         name: Switch to dark mode
-    - scheme: slate
-      primary: indigo
-      accent: indigo
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep orange
+      accent: deep orange
       toggle:
-        icon: material/toggle-switch
+        icon: material/brightness-5
         name: Switch to light mode
+  # palette:
+  #   - scheme: soft-green-light
+  #     primary: custom
+  #     accent: custom
+  #     toggle:
+  #       icon: material/weather-night
+  #       name: Switch to dark mode
+
+  #   - scheme: charcoal-orange-dark
+  #     primary: custom
+  #     accent: custom
+  #     toggle:
+  #       icon: material/weather-sunny
+  #       name: Switch to light mode
+
+  font:
+    text: Roboto Mono
+    code: Roboto Mono
+
+  features:
+    # - navigation.top
+    # - navigation.tabs
+    - toc.integrate
+    - content.code.copy
+    - content.code.select
+    #- content.action.edit
+    - content.tabs.link
+    #- content.code.annotate
+    - navigation.instant
+
+extra_css:
+  - stylesheets/custom-theme.css
 
 markdown_extensions:
-  - admonition
-  - attr_list
-  - def_list
-  - footnotes
-  - md_in_html
-  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - pymdownx.superfences
 
 plugins:
@@ -41,12 +75,8 @@ plugins:
 
 nav:
   - Home: index.md
-  - About: about.md
-  - Servers:
-      - Mac Mini M4:
-          - Overview: servers/Mac Mini M4/Mac Mini M4.md
-          - Hardware Specifications: servers/Mac Mini M4/Hardware.md
-          - Software: servers/Mac Mini M4/Software.md
-          - Problems with File Vault: servers/Mac Mini M4/FileVault.md
-          - UTM: servers/Mac Mini M4/UMT.md
 
+  - Docker:
+    - Actual Budget: docker/actual-budget.md
+    - Beszel: docker/beszel.md
+    - Dozzle: docker/dozzle.md
