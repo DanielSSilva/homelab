@@ -1,0 +1,63 @@
+/* ------------------------------------------------
+   SOFT GREEN LIGHT THEME
+------------------------------------------------ */
+[data-md-color-scheme="soft-green-light"] {
+  --md-default-bg-color: #f7f9f5;
+  --md-default-fg-color: #1c1c1c;
+
+  /* Soft green primary */
+  --md-primary-fg-color: #4d8f6a;
+  --md-primary-fg-color--light: #6bbf8a;
+  --md-primary-fg-color--dark: #3b7053;
+
+  /* Accent green */
+  --md-accent-fg-color: #6bbf8a;
+
+  /* Code blocks */
+  --md-code-bg-color: #eceeea;
+}
+
+/* ------------------------------------------------
+   CHARCOAL ORANGE DARK THEME (Improved Contrast)
+------------------------------------------------ */
+[data-md-color-scheme="charcoal-orange-dark"] {
+  --md-default-bg-color: #1c1e22;		 /* Main background */
+  --md-default-fg-color: #e6e6e6;
+
+  /* Nav / sidebar background */
+  --md-primary-bg-color: #24272d;
+
+  /* Orange primary */
+  --md-primary-fg-color: #ff8c42;
+  --md-primary-fg-color--light: #ffa869;
+  --md-primary-fg-color--dark: #cc6f32;
+
+  /* Accent orange */
+  --md-accent-fg-color: #ffa869;
+
+  /* Code blocks (dark softened terminal look) */
+  --md-code-bg-color: #2a2d34;
+
+  /* Tables / inline blocks */
+  --md-code-hl-bg-color: #33363e;
+}
+
+/* ------------------------------------------------
+   SHARED POLISH
+------------------------------------------------ */
+
+/* Softer rounded corners for code blocks */
+.md-content pre code {
+  border-radius: 8px;
+}
+
+/* Light hover glow for dark theme links */
+[data-md-color-scheme="charcoal-orange-dark"] .md-content a:hover {
+  color: var(--md-accent-fg-color);
+  text-shadow: 0 0 6px var(--md-accent-fg-color);
+}
+
+/* No glow for light theme (keep clean) */
+[data-md-color-scheme="soft-green-light"] .md-content a:hover {
+  color: var(--md-accent-fg-color);
+}
