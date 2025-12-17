@@ -12,8 +12,6 @@ This contains two components:
 
 - **Beszel Agent**: A lightweight agent that runs on each monitored host to collect system metrics.
 
-<br/>
-
 ## Docker Compose
 
 ```yaml
@@ -28,8 +26,6 @@ services:
     restart: unless-stopped
     networks:
       - proxy
-    ports:
-      - 8090:8090
     volumes:
       - ${APPDATA_DIR}/beszel/data:/beszel_data
       - ${APPDATA_DIR}/beszel/socket:/beszel_socket

@@ -17,8 +17,6 @@ services:
     container_name: dozzle
     environment:
       DOCKER_HOST: tcp://dockersocket:2375
-    ports:
-      - 8099:8080
     networks:
       - proxy
     labels:

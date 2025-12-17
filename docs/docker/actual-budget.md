@@ -19,8 +19,6 @@ services:
 	restart: unless-stopped
 	networks:
 	  - proxy
-	ports:
-	  - 5006:5006
 	volumes:
 	  - ${APPDATA_DIR}/actual-server:/data
 	labels:
